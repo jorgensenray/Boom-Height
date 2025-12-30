@@ -1,0 +1,36 @@
+- Imperial or Metric value display 
+
+- Spray width is the  width of the individual 
+   nozzle spray pattern.
+
+ - # Nozzles - how many Nozzles are there?
+
+ - Ball/Hyd - If you have an electric Ball 
+   Valve controlling the pressure enter 1.
+   If hyd PWM enter 2. (not currently active)
+
+ - Wheel Angle - This # will set when you 
+   want individual nozzle turn compensation
+   to start. It's based on your actual wheel
+   angle. For example if you enter 5, when
+   your steer wheel angle is >= 5 degrees
+   turn compensation will start.
+
+ - Duty Cycle Adjust - factor used to tune .
+
+ - HZ - This will run anywhere from 1 - 30 Hz 
+   (times per second). The sweet spot seems
+   to be 10 to 15 Hz. 
+
+   #####  Kick and Hold tuning  ####
+
+ - Kick Duration in millie seconds (2-6)
+
+ - Hold Duty cycle % (10 - 30)
+
+ - Hold PWM Frequency (50 - 500)
+
+ - HoldRefV (System voltage)
+
+ - Consult included KH Tuning.txt for more
+   K&H details.
